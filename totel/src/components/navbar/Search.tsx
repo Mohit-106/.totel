@@ -1,6 +1,7 @@
 'use client';
 import { RiArrowDropDownLine } from 'react-icons/Ri';
 import Link from 'next/link';
+import styles from "../Styles/Search.module.css"
 const Search = () => {
   return (
     <div
@@ -12,7 +13,7 @@ const Search = () => {
       <div 
         className="hidden px-6 text-sm font-semibold sm:block"
       >
-        <Link href="roomstays">
+        <Link href="roomstays"   className={styles.button}>
         Room Stays
         </Link>
         
@@ -21,19 +22,30 @@ const Search = () => {
       <div 
         className="flex-1 hidden px-6 text-sm font-semibold text-center sm:block"
       >
+        <Link href="roomstays"  className={styles.button}>
         Looking for Partner
+        </Link>
+        
       </div>
+      <Link href="/"  className={styles.button}>
       <div 
         className="flex flex-row items-center gap-1 pl-6 pr-2 text-sm font-semibold"
       >
+        
+      
         <div className="hidden sm:block">Company</div>
         <div className="hidden ml-auto sm:block"> <RiArrowDropDownLine/> </div>
         
-      </div>
+        
+      </div></Link >
+      
       <div 
         className="flex flex-row items-center gap-3 pl-6 pr-2 text-sm font-semibold"
       >
+        <Link href="roomstays"  className={styles.button}>
         <div className="hidden sm:block">Help</div>
+        </Link>
+       
       </div>
     </div>
   </div>

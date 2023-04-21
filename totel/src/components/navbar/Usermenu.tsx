@@ -12,9 +12,12 @@ const Usermenu = () => {
           //onClick={onRent}
           className={styles.button}
         >
+          
           <Link href="/">
-            <p className={styles.txt}>Managing Listings</p>
+            <p >Managing Listings</p>
           </Link>
+          
+         
         </div>
         <div className="flex flex-row items-center gap-3 p-4 rounded-full cursor-pointer md:py-1 md:px-2">
           <div className="md:block">

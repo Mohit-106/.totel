@@ -16,12 +16,12 @@ export default function HotelCard() {
       <div className="p-4">
         <div className="flex">
           <h2 className={styles.hname}>Hotel Name</h2>
-          {/* <div className={styles.star}>
+          <div className={styles.star}>
             <div>
               <FaRegStar />
             </div>
             <p className="text-lg font-semibold text-gray-700">4.2</p>
-          </div> */}
+          </div>
         </div>
 
         <h2 className={styles.dates}>24 April 2023 - 28 April 2023</h2>

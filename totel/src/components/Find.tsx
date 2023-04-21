@@ -12,7 +12,7 @@ export default function () {
         </div>
       </div>
       <div className="ml-5">
-        <p className="mx-2 font-semibold text-left">From</p>
+        <p className="mx-2 font-semibold text-left">Check-In</p>
         <div className="flex items-center justify-center gap-2 my-4">
           <div className={styles.date}>
             <div>15/04/23</div>
@@ -29,7 +29,7 @@ export default function () {
         </div>
       </div>
       <div className="ml-5 ">
-        <p className="mx-2 font-semibold text-left">Until</p>
+        <p className="mx-2 font-semibold text-left">Check-Out</p>
         <div className="flex items-center justify-center gap-1 my-4">
           <div className={styles.date}>
             <div>15/04/23</div>
@@ -43,15 +43,14 @@ export default function () {
               <BsClockHistory className="mr-3 search-icon" />
             </div>
           </div>
-          
         </div>
-        
       </div>
-      <div className="w-10 h-10 mt-5 ml-3 rounded-full bg-purple">
-            <div className="hidden text-center text-white sm:block ">
-              <BiSearch className="mt-3 ml-3 search-icon" />
-            </div>
+    
+        <div className="w-10 h-10 mt-5 ml-3 rounded-full bg-purple hover:cursor-pointer">
+          <div className="hidden text-center text-white sm:block ">
+            <BiSearch className="mt-3 ml-3 search-icon" />
           </div>
+        </div>
     </div>
   );
 }

@@ -139,4 +139,6 @@
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-left: 72px;
+  margin-bottom:10px;
 }

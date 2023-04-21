@@ -1,9 +1,13 @@
 import {AiOutlineInstagram,AiOutlineGoogle,AiFillApple} from 'react-icons/ai' 
 import {BsFacebook,BsGooglePlay} from 'react-icons/bs' 
 import {FaAppStore} from 'react-icons/fa'
+import Bluecard2 from '../bluecards/Bluecard2';
 const Footer1 = () => {
   return (
     <div>
+      <div>
+      <Bluecard2/>
+    </div>
       <footer className="w-full py-4 overflow-x-hidden text-gray-400">
         <div className="container flex justify-around mx-2 text-black ">
           <div>

@@ -93,7 +93,6 @@
 }
 
 .about {
-  width: 264px;
   white-space: nowrap;
   height: 100px;
 
@@ -104,6 +103,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+  text-align: left;
   /* or 143% */
 
   letter-spacing: -0.1px;
@@ -121,28 +121,37 @@
 }
 
 .rate {
-  width: 258px;
-  height: 22px;
-
+  
   /* Text M/Medium */
   white-space: nowrap;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 22px;
+  margin-left: 0px;
+  text-align: left;
   /* identical to box height, or 147% */
 
-  letter-spacing: -0.1px;
+  
 
   /* Gray/700 */
 
   color: #272d37;
 
   /* Inside auto layout */
+}
 
+.star {
+  box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-left: 0.6rem;
+  margin-bottom: 1px;
 }
