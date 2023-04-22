@@ -9,9 +9,9 @@
   align-items: flex-start;
   padding: 64px 0px;
 
-  overflow:hidden;
+  overflow-x: inherit;
   height: 320px;
-  width: 1512px;
+  width: 1280px;
   gap: 4px;
 
   /* Purple (Secondary)/600 */
