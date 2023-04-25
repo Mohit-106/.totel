@@ -22,7 +22,7 @@ const Search = () => {
       <div 
         className="flex-1 hidden px-6 text-sm font-semibold text-center sm:block"
       >
-        <Link href="roomstays"  className={styles.button}>
+        <Link href="findpartner"  className={styles.button}>
         Looking for Partner
         </Link>
         
