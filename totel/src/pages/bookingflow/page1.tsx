@@ -53,7 +53,7 @@ export default function page1() {
           </button>
           </Link>
           
-          <Link href="page2">
+          <Link href="/bookingflow/page2">
           <button className="px-6 py-2 font-semibold text-white transition-colors duration-300 border border-white rounded-full bg-blue hover:bg-black hover:text-white hover:border-transparent">
           Next
           </button>

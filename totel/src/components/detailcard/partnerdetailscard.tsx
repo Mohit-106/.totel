@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./detailcard.module.css";
+import Link from "next/link";
 export default function detailscard() {
   return (
     <div className={styles.box}>
@@ -14,9 +15,12 @@ export default function detailscard() {
         </button>
         </div>
         <div>
-        <button className="px-6 py-2 font-bold text-white transition-colors duration-300 border border-white rounded-full bg-blue text-wj hover:bg-grey hover:text-white hover:border-transparent">
+          <Link href="/bookingflow/page1">
+          <button className="px-6 py-2 font-bold text-white transition-colors duration-300 border border-white rounded-full bg-blue text-wj hover:bg-grey hover:text-white hover:border-transparent">
           Send Proposal
         </button>
+          </Link>
+       
         </div>
       </div>
       <div className="mt-4 ml-20"><p>You won’t be charged yet</p></div>

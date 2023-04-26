@@ -12,11 +12,9 @@ export default function page1() {
       <Navbar />
       <div className="mt-3">
         <Container>
-          <div className={styles.heading}>Give your availability</div>
+          <div className={styles.heading}>Tell about the booked room details.</div>
           <div className={styles.des}>
-            In this step, we'll ask you which type of stays you have and if
-            guests will book the entire place or just a room. Then let us
-            <br /> know the location and how many guests can stay.
+          In this step, we'll ask you which type of stays you have and if guests will book the entire place or just a room. Then let us<br/> know the location and how many guests can stay.
           </div>
 
 
@@ -34,13 +32,13 @@ export default function page1() {
          
 
           <div className="flex justify-between mt-20 mb-10">
-          <Link href="/partnerdetails">
+          <Link href="/bookingflow/page1">
           <button className="px-6 py-2 transition-colors duration-300 bg-white border rounded-full text-semibold black font- border-grey hover:bg-black hover:text-white hover:border-transparent">
           Back
           </button>
           </Link>
           
-          <Link href="page2">
+          <Link href="/bookingflow/page3">
           <button className="px-6 py-2 font-semibold text-white transition-colors duration-300 border border-white rounded-full bg-blue hover:bg-black hover:text-white hover:border-transparent">
           Next
           </button>
