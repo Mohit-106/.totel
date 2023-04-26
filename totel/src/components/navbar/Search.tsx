@@ -1,5 +1,5 @@
 'use client';
-import { RiArrowDropDownLine } from 'react-icons/Ri';
+// import { RiArrowDropDownLine } from 'react-icons/Ri';
 import Link from 'next/link';
 import styles from "../Styles/Search.module.css"
 const Search = () => {
@@ -34,7 +34,7 @@ const Search = () => {
         
       
         <div className="hidden sm:block">Company</div>
-        <div className="hidden ml-auto sm:block"> <RiArrowDropDownLine/> </div>
+       {/* <div className="hidden ml-auto sm:block"> <RiArrowDropDownLine/> </div> */}
         
         
       </div></Link >
