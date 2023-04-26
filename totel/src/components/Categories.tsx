@@ -4,7 +4,7 @@ import Cards from "./cards/cards";
 import styles from "./Styles/Categories.module.css";
 import { IoMapSharp } from "react-icons/io5";
 import { FiFilter } from "react-icons/fi";
-import { RiArrowDropDownLine } from "react-icons/Ri";
+// import { RiArrowDropDownLine } from "react-icons/Ri";
 
 export default function CategoryBox() {
   return (
@@ -13,7 +13,7 @@ export default function CategoryBox() {
         <button className={styles.button}>
           <p className={styles.text}>Price</p>
           <div className="ml-2">
-            <RiArrowDropDownLine />
+            {/* <RiArrowDropDownLine /> */}
           </div>
         </button>
         <button className={styles.button}>
